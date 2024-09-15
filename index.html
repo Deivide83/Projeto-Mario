@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet" />
+  <title>Mario Bros</title>
+</head>
+
+<body>
+  <div onclick="voltaForm()" class="mascara-form"></div>
+
+  </div>
+  <div class="container-link">
+    <img class="img-face" src="./img/icon.png" alt="rosto de Mario" />
+
+    <a class="button1">Home</a>
+    <a class="button1">Fale Conosco</a>
+    <a class="button1"> Nossos serviços</a>
+
+  </div>
+
+  <div class="caixa-mae">
+    <img class="img-logo" src="./img/logo (2).png" alt="logo do Mario" />
+
+
+
+    <img class="img-mario-luigi" src="./img/mario.png" alt="Mario & Luigi" />
+
+  </div>
+
+  <div class="paragrafo" id="parag">
+    <p> 🔧Encanadores Mario e Luigi resolvendo o seu problema 🔧</p>
+    <p> 👨‍🔧Você já encontrou em uma situação de emergência com encanamento?🔩</p>
+    <button onclick="chamaForm()" id="button">Entre em Contato </button>
+
+  </div>
+
+  <a href="https://wa.me/55988214585?text=Seja%20bem%20vindo%20aos%20irm%C3%A3os%20M%C3%A1rio"></a>
+
+  <img class="logo-zap" src="./img/whatsapp.png" alt="logo zap">
+  </a>
+
+  <div id="caixa-video">
+    <video src="./img/video.mp4" autoplay muted loop></video>
+  </div>
+  <form class="fale-conosco" action="https://formcarry.com/s/rlVb3FZYkWn" method="POST" enctype="multipart/form-data">
+
+    <input placeholder="Seu nome" type="text"  name="Nome">
+    <input placeholder="Seu telefone" type="tel" name="Telefone"> 
+    <textarea placeholder="Digite seu problema aqui.." name="Dúvida"></textarea>
+    <button type="submit" class="button-form">Pedir orçamento</button>
+  </form>
+
+
+</body>
+<script src="./script.js"></script>
+
+</html>
